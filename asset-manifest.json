@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AsteriodsNearEarthAPP/static/css/main.39d8fd8f.chunk.css",
+    "main.js": "/AsteriodsNearEarthAPP/static/js/main.70e9737c.chunk.js",
+    "main.js.map": "/AsteriodsNearEarthAPP/static/js/main.70e9737c.chunk.js.map",
+    "runtime-main.js": "/AsteriodsNearEarthAPP/static/js/runtime-main.09cf52c8.js",
+    "runtime-main.js.map": "/AsteriodsNearEarthAPP/static/js/runtime-main.09cf52c8.js.map",
+    "static/css/2.9a9a1f6f.chunk.css": "/AsteriodsNearEarthAPP/static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.708abb35.chunk.js": "/AsteriodsNearEarthAPP/static/js/2.708abb35.chunk.js",
+    "static/js/2.708abb35.chunk.js.map": "/AsteriodsNearEarthAPP/static/js/2.708abb35.chunk.js.map",
+    "index.html": "/AsteriodsNearEarthAPP/index.html",
+    "precache-manifest.86a774a6aca4f9c2850b8426ca923890.js": "/AsteriodsNearEarthAPP/precache-manifest.86a774a6aca4f9c2850b8426ca923890.js",
+    "service-worker.js": "/AsteriodsNearEarthAPP/service-worker.js",
+    "static/css/2.9a9a1f6f.chunk.css.map": "/AsteriodsNearEarthAPP/static/css/2.9a9a1f6f.chunk.css.map",
+    "static/css/main.39d8fd8f.chunk.css.map": "/AsteriodsNearEarthAPP/static/css/main.39d8fd8f.chunk.css.map",
+    "static/js/2.708abb35.chunk.js.LICENSE.txt": "/AsteriodsNearEarthAPP/static/js/2.708abb35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09cf52c8.js",
+    "static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.708abb35.chunk.js",
+    "static/css/main.39d8fd8f.chunk.css",
+    "static/js/main.70e9737c.chunk.js"
+  ]
+}
