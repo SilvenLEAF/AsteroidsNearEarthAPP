@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AsteroidsNearEarthAPP/precache-manifest.77290e9d41cba1326051c66dbf5006af.js"
+  "/AsteroidsNearEarthAPP/precache-manifest.e6bd0d2f28e7dad591c9566e86c79e9e.js"
 );
 
 self.addEventListener('message', (event) => {

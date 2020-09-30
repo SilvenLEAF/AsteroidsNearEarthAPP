@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AsteroidsNearEarthAPP/static/css/main.d0260db1.chunk.css",
-    "main.js": "/AsteroidsNearEarthAPP/static/js/main.cae64e06.chunk.js",
-    "main.js.map": "/AsteroidsNearEarthAPP/static/js/main.cae64e06.chunk.js.map",
+    "main.css": "/AsteroidsNearEarthAPP/static/css/main.d1ab75ee.chunk.css",
+    "main.js": "/AsteroidsNearEarthAPP/static/js/main.15ddcbee.chunk.js",
+    "main.js.map": "/AsteroidsNearEarthAPP/static/js/main.15ddcbee.chunk.js.map",
     "runtime-main.js": "/AsteroidsNearEarthAPP/static/js/runtime-main.8ef2f262.js",
     "runtime-main.js.map": "/AsteroidsNearEarthAPP/static/js/runtime-main.8ef2f262.js.map",
     "static/css/2.9a9a1f6f.chunk.css": "/AsteroidsNearEarthAPP/static/css/2.9a9a1f6f.chunk.css",
     "static/js/2.6fccc2d2.chunk.js": "/AsteroidsNearEarthAPP/static/js/2.6fccc2d2.chunk.js",
     "static/js/2.6fccc2d2.chunk.js.map": "/AsteroidsNearEarthAPP/static/js/2.6fccc2d2.chunk.js.map",
     "index.html": "/AsteroidsNearEarthAPP/index.html",
-    "precache-manifest.77290e9d41cba1326051c66dbf5006af.js": "/AsteroidsNearEarthAPP/precache-manifest.77290e9d41cba1326051c66dbf5006af.js",
+    "precache-manifest.e6bd0d2f28e7dad591c9566e86c79e9e.js": "/AsteroidsNearEarthAPP/precache-manifest.e6bd0d2f28e7dad591c9566e86c79e9e.js",
     "service-worker.js": "/AsteroidsNearEarthAPP/service-worker.js",
     "static/css/2.9a9a1f6f.chunk.css.map": "/AsteroidsNearEarthAPP/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.d0260db1.chunk.css.map": "/AsteroidsNearEarthAPP/static/css/main.d0260db1.chunk.css.map",
+    "static/css/main.d1ab75ee.chunk.css.map": "/AsteroidsNearEarthAPP/static/css/main.d1ab75ee.chunk.css.map",
     "static/js/2.6fccc2d2.chunk.js.LICENSE.txt": "/AsteroidsNearEarthAPP/static/js/2.6fccc2d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8ef2f262.js",
     "static/css/2.9a9a1f6f.chunk.css",
     "static/js/2.6fccc2d2.chunk.js",
-    "static/css/main.d0260db1.chunk.css",
-    "static/js/main.cae64e06.chunk.js"
+    "static/css/main.d1ab75ee.chunk.css",
+    "static/js/main.15ddcbee.chunk.js"
   ]
 }
