@@ -20,7 +20,7 @@ function Wrapper() {
       <Route path="/asteroids" component={Asteroids} />
 
 
-    </Switch>    
+    </Switch>
   </div>
   )
 }

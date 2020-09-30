@@ -6,9 +6,22 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 
+import RootContext from './PagesAndContexts/RootContext';
 
-import AsteroidContextProvider from './contexts/AsteroidContext';
-import ThingsInsideApp from './CONTROLPANEL/ThingsInsideApp';
+
+
+
+
+
+import Navbar from './components/layouts/Navbar'
+import Wrapper from './PagesAndContexts/Wrapper';
+
+
+import Footer from './components/layouts/Footer'
+import MobileFooterNav from './components/layouts/MobileFooterNav'
+
+import BackToTopButton from './components/layouts/BackToTopButton'
+
 
 
 
@@ -17,11 +30,20 @@ import ThingsInsideApp from './CONTROLPANEL/ThingsInsideApp';
 function App() {
   return (
     <BrowserRouter basename="/AsteroidsNearEarthAPP">
-      <AsteroidContextProvider>     
+      <RootContext>
+         
         
-        <div className="App"><ThingsInsideApp/></div>
+        <div className="App">
+          <Navbar/>
+          <Wrapper/>
 
-      </AsteroidContextProvider>
+          
+          <BackToTopButton/>
+          <Footer/>
+          <MobileFooterNav/>
+        </div>
+
+        </RootContext>
     </BrowserRouter>
   );
 }

@@ -16,7 +16,7 @@ function Navbar() {
     <nav id="myNavbar" className="nav nav-wrapper scrollspy">
       <div className="container">
 
-        <Link to= "/" className= "brand-logo">SilvenLEAF</Link>
+        <Link to= "/" className= "brand-logo">AsteroidsHunter</Link>
         <div className="sidenav-trigger hide-on-large-only" data-target= "mobilenav" id="myHam">
             <div></div>   
             <div></div>
