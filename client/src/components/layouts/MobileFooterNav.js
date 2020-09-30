@@ -40,8 +40,8 @@ function MobileFooterNav() {
 
       <div>
         <div className="myFooterIcons">
-          <Link to="/">
-          <i className="fa fa-envelope"></i> Contact
+          <Link to="/asteroids">
+          <i className="fa fa-globe"></i> Asteroids
           </Link>
         </div>          
       </div>
