@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import Home from '../components/home/Home'
 import Asteroids from '../components/asteroids/Asteroids';
+import Details from '../components/details/Details';
 
 
 
@@ -18,6 +19,7 @@ function Wrapper() {
 
       <Route exact path="/" component={Home} />
       <Route path="/asteroids" component={Asteroids} />
+      <Route path="/details" component={Details} />
 
 
     </Switch>

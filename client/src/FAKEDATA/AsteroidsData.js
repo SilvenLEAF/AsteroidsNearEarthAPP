@@ -7,15 +7,25 @@ export const asteroids = {
   "element_count": 57,
   "near_earth_objects": {
     "2025-12-27": [
+      
+      
+      
+      
+      
       {
         "links": {
           "self": "http://www.neowsapp.com/rest/v1/neo/3591720?api_key=16a2w0BQiLndU3NtUD7H5mweN3YXQ6eqcZil5VT9"
         },
         "id": "3591720",
         "neo_reference_id": "3591720",
+      
+      
         "name": "(2011 YG28)",
+      
+      
         "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3591720",
         "absolute_magnitude_h": 21.5,
+      
         "estimated_diameter": {
           "kilometers": {
             "estimated_diameter_min": 0.1332155667,
@@ -34,6 +44,9 @@ export const asteroids = {
             "estimated_diameter_max": 977.2935443908
           }
         },
+       
+       
+       
         "is_potentially_hazardous_asteroid": false,
         "close_approach_data": [
           {
@@ -54,6 +67,8 @@ export const asteroids = {
             "orbiting_body": "Earth"
           }
         ],
+       
+       
         "is_sentry_object": false
       },
       {

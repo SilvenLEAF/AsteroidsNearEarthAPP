@@ -1,0 +1,47 @@
+
+
+@import '../variables';
+
+
+
+.myDetailsPage {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: $awesomeShadow;
+  
+  .pageTitle {
+    margin: 0;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+
+  .infoHolder {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .infoTitle {
+    margin: 0;
+    font-family: Aladin;
+    font-size: 200%;
+  }
+  
+  
+  .infoDiameterHolder {
+    span {
+      margin: 0;
+      font-size: 110%;
+      font-weight: 600;
+      text-transform: lowercase;
+    }
+    
+
+    p {
+      margin: 0;
+    }
+  }
+
+}
