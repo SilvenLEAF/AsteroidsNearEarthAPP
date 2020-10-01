@@ -30,7 +30,7 @@ function MobileFooterNav() {
 
       <div>
         <div className="myFooterIcons">
-          <Link to="/">
+          <Link to="/search">
           <i className="fa fa-search"></i> Search
           </Link>
         </div>          
