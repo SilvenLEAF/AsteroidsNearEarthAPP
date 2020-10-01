@@ -1,0 +1,22 @@
+@import '../variables';
+
+
+.myAsteroidItem {
+  margin-top: 20px;
+  padding: 20px ;
+  background-color: #fff;
+  box-shadow: $awesomeShadow;
+  display: flex;
+  justify-content: space-between;
+  
+  .myAsteroidItemNo {
+    color: $themeColor;
+  }
+  
+  .myAsteroidItemApproachingDate {
+    color: $themeColor;
+  }
+
+
+}
+
