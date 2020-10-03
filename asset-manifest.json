@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/AsteroidsNearEarthAPP/static/css/main.d1ab75ee.chunk.css",
-    "main.js": "/AsteroidsNearEarthAPP/static/js/main.15ddcbee.chunk.js",
-    "main.js.map": "/AsteroidsNearEarthAPP/static/js/main.15ddcbee.chunk.js.map",
+    "main.css": "/AsteroidsNearEarthAPP/static/css/main.8e8a53bc.chunk.css",
+    "main.js": "/AsteroidsNearEarthAPP/static/js/main.4a9da7fc.chunk.js",
+    "main.js.map": "/AsteroidsNearEarthAPP/static/js/main.4a9da7fc.chunk.js.map",
     "runtime-main.js": "/AsteroidsNearEarthAPP/static/js/runtime-main.8ef2f262.js",
     "runtime-main.js.map": "/AsteroidsNearEarthAPP/static/js/runtime-main.8ef2f262.js.map",
     "static/css/2.9a9a1f6f.chunk.css": "/AsteroidsNearEarthAPP/static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.6fccc2d2.chunk.js": "/AsteroidsNearEarthAPP/static/js/2.6fccc2d2.chunk.js",
-    "static/js/2.6fccc2d2.chunk.js.map": "/AsteroidsNearEarthAPP/static/js/2.6fccc2d2.chunk.js.map",
+    "static/js/2.a7c50dab.chunk.js": "/AsteroidsNearEarthAPP/static/js/2.a7c50dab.chunk.js",
+    "static/js/2.a7c50dab.chunk.js.map": "/AsteroidsNearEarthAPP/static/js/2.a7c50dab.chunk.js.map",
     "index.html": "/AsteroidsNearEarthAPP/index.html",
-    "precache-manifest.e6bd0d2f28e7dad591c9566e86c79e9e.js": "/AsteroidsNearEarthAPP/precache-manifest.e6bd0d2f28e7dad591c9566e86c79e9e.js",
+    "precache-manifest.85b75c83f0a449b6f52589b8deb1bf91.js": "/AsteroidsNearEarthAPP/precache-manifest.85b75c83f0a449b6f52589b8deb1bf91.js",
     "service-worker.js": "/AsteroidsNearEarthAPP/service-worker.js",
     "static/css/2.9a9a1f6f.chunk.css.map": "/AsteroidsNearEarthAPP/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.d1ab75ee.chunk.css.map": "/AsteroidsNearEarthAPP/static/css/main.d1ab75ee.chunk.css.map",
-    "static/js/2.6fccc2d2.chunk.js.LICENSE.txt": "/AsteroidsNearEarthAPP/static/js/2.6fccc2d2.chunk.js.LICENSE.txt"
+    "static/css/main.8e8a53bc.chunk.css.map": "/AsteroidsNearEarthAPP/static/css/main.8e8a53bc.chunk.css.map",
+    "static/js/2.a7c50dab.chunk.js.LICENSE.txt": "/AsteroidsNearEarthAPP/static/js/2.a7c50dab.chunk.js.LICENSE.txt",
+    "static/media/Home.scss": "/AsteroidsNearEarthAPP/static/media/asteroid.1addfb8e.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.8ef2f262.js",
     "static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.6fccc2d2.chunk.js",
-    "static/css/main.d1ab75ee.chunk.css",
-    "static/js/main.15ddcbee.chunk.js"
+    "static/js/2.a7c50dab.chunk.js",
+    "static/css/main.8e8a53bc.chunk.css",
+    "static/js/main.4a9da7fc.chunk.js"
   ]
 }
