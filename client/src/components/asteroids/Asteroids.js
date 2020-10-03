@@ -2,11 +2,12 @@ import M from 'materialize-css'
 import '../../styles/Home.scss';
 
 
-import { asteroids } from '../../FAKEDATA/AsteroidsData';
+// import { asteroids } from '../../FAKEDATA/AsteroidsData';
 import { NASA_API_KEY } from '../../secrets/Secret';
 
 
 import React, { useContext, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { usePaginatedQuery } from 'react-query'
 
 
@@ -28,7 +29,7 @@ const getAsteroids = async (startDate, pageLink)=>{
   const asteroidsData = await asteroidsRes.json();
 
   console.log(asteroidsData);
-  return asteroidsData
+  return asteroidsData["near_earth_objects"][startDate]
 }
 
 
@@ -73,9 +74,12 @@ function Asteroids() {
       
       <div id="asteroidItemsHolder">
         {
-          asteroids["near_earth_objects"][startDate] && asteroids["near_earth_objects"][startDate].map((item, index)=>{
-            // return <AsteroidItem asteroidNo={ index } asteroidName={ item.name } approachingDate={ item["close_approach_data"][0]["close_approach_date"] } />
-            return <AsteroidItem asteroidNo={ index + 1 } asteroidName={ item.name } approachingDate={ item["close_approach_data"][0]["close_approach_date_full"].split(' ')[0] } />
+          resolvedData && resolvedData.map((item, index)=>{            
+            return (
+              <Link to={ '/details/' + index } key={ index } >
+                <AsteroidItem asteroidNo={ index + 1 } asteroidName={ item.name } approachingDate={ item["close_approach_data"][0]["close_approach_date_full"].split(' ')[0] } />
+              </Link>
+            )
           })
         }
       </div>

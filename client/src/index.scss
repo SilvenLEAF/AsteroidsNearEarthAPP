@@ -206,13 +206,14 @@ ul.sidenav {
 
 
 
+
 /* ------------------------------------
 .    FORM INPUT INTO PRIMARY COLOR
 ------------------------------------ */
-.input-field input[type=text]:focus + label, .input-field .materialize-textarea:focus + label {
+.input-field input[type=text]:focus + label, .input-field input[type=number]:focus + label, .input-field .materialize-textarea:focus + label {
   color: $themeColor !important;
 }
-.input-field input[type=text]:focus, .input-field .materialize-textarea:focus {
+.input-field input[type=text]:focus, .input-field input[type=number]:focus, .input-field .materialize-textarea:focus {
   border-bottom: 1px solid $themeColor !important;
   box-shadow: 0 1px 0 0 $themeColor !important;
 }
@@ -272,8 +273,6 @@ ul.sidenav {
 
 
 // ----------------BUTTONS
-
-
 .btn {
   background-color: $themeColor !important;
   &:visited {
@@ -289,3 +288,27 @@ ul.sidenav {
     background-color: darken($themeColor, 10) !important;
   }
 }
+
+
+
+// --------------------DATE
+.datepicker-date-display {
+  background-color: $themeColor !important;
+ }
+ 
+ .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color:$themeColor !important;
+ }
+ 
+ .datepicker-table td.is-today {
+  color: $themeColor !important;
+ }
+ 
+ .datepicker-table td.is-selected {
+  background-color: $themeColor !important;
+  color: #fff;
+ }
+
+ .dropdown-content.select-dropdown li span {
+   color: $themeColor !important;
+ }

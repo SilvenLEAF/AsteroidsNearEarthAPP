@@ -7,6 +7,7 @@ import Home from '../components/home/Home'
 import Asteroids from '../components/asteroids/Asteroids';
 import Details from '../components/details/Details';
 import Search from '../components/search/Search';
+import SearchResults from '../components/search/SearchResults';
 
 
 
@@ -20,8 +21,9 @@ function Wrapper() {
 
       <Route exact path="/" component={Home} />
       <Route path="/asteroids" component={Asteroids} />
-      <Route path="/details" component={Details} />
+      <Route path="/details/:index" component={Details} />
       <Route path="/search" component={Search} />
+      <Route path="/searchResults" component={SearchResults} />
 
 
     </Switch>

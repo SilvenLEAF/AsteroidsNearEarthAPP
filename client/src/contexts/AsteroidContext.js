@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react'
-
+import { asteroids } from '../FAKEDATA/AsteroidsData'
 
 
 export const AsteroidContext = createContext();
@@ -8,7 +8,7 @@ export const AsteroidContext = createContext();
 
 function AsteroidContextProvider({ children }) {
 
-  const [asteroidsInfo, setAsteroidsInfo] = useState();
+  const [asteroidsInfo, setAsteroidsInfo] = useState(asteroids);
 
 
   return (
