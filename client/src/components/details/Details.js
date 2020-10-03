@@ -3,23 +3,27 @@ import '../../styles/Details.scss';
 
 
 import { asteroids } from '../../FAKEDATA/AsteroidsData';
+import { AsteroidContext } from '../../contexts/AsteroidContext';
+
+
+import React, { useContext, useState, useEffect } from 'react'
 
 
 
-import React, { useState, useEffect } from 'react'
 
 
-
-
-
-function Details() {
+function Details(props) {
   useEffect(()=>{
     M.AutoInit();
   }, [])
 
+  const { asteroidsInfo } = useContext(AsteroidContext);
+  const index = props.match.params.index;
+  const item = asteroidsInfo[parseInt(index)];
+  console.log(index)
 
   const [startDate, setStartDate] = useState("2025-12-27")
-  const item = asteroids["near_earth_objects"][startDate][0]
+  // const item = asteroids["near_earth_objects"][startDate][0]
   const diameter = item["estimated_diameter"].meters;
   const diameterUnit = "m"
 

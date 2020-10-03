@@ -41,7 +41,7 @@ function MobileFooterNav() {
       <div>
         <div className="myFooterIcons">
           <Link to="/asteroids">
-          <i className="fa fa-globe"></i> Asteroids
+          <i className="fa fa-globe"></i> Today
           </Link>
         </div>          
       </div>
