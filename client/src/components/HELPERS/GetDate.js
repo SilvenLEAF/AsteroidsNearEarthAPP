@@ -3,7 +3,8 @@ export const getDate = ()=>{
 
 const yy = today.getFullYear();
 const mm = today.getMonth() + 1;
-const dd = today.getDate();
+const day = today.getDate();
+const dd = day < 10 ? '0' + day : day;
 const res = `${ yy }-${ mm }-${dd}`;
 
 console.log(res)

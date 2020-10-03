@@ -1,9 +1,10 @@
 import M from 'materialize-css'
-import '../../styles/Home.scss';
+import '../../styles/Asteroids.scss';
 
 
 // import { asteroids } from '../../FAKEDATA/AsteroidsData';
 import { NASA_API_KEY } from '../../secrets/Secret';
+import { getDate } from '../HELPERS/GetDate'
 
 
 import React, { useContext, useEffect, useState } from 'react'
@@ -50,7 +51,7 @@ function Asteroids() {
 
   const { setAsteroidsInfo } = useContext(AsteroidContext)
   const [pageLink, setPageLink] = useState('')
-  const [startDate, setStartDate] = useState("2025-12-27")
+  const startDate = getDate();
 
   const { resolvedData, latestData, status } = usePaginatedQuery([startDate, pageLink], getAsteroids)
   if(resolvedData) setAsteroidsInfo(resolvedData);
@@ -70,9 +71,9 @@ function Asteroids() {
   return (
     <div className="container">
 
-      <h2 className="pageTitle">Asteroids</h2>
+      <h2 className="pageTitle">Asteroids (today)</h2>
       
-      <div id="asteroidItemsHolder">
+      <div className="asteroidItemsHolder">
         {
           resolvedData && resolvedData.map((item, index)=>{            
             return (
