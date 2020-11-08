@@ -30,7 +30,7 @@ An APP to see the asteroids near the Mother Earth!
 
 First make sure you have NodeJS installed on your PC and your PC has internet connection (*because we are using NASA API, so you need internet connection to connect to this API*). Then clone the repo. Open the client directory on your favourite Text Editor (mine is VS Code). Then, run this command on your terminal to install all the dependencies...
   
-``npm install```
+``npm install``
 
 
 Then run this command...
